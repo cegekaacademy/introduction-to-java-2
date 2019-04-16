@@ -1,5 +1,5 @@
 # introduction-to-java-2
-##Probleme:
+## Probleme:
 
 1. Se da o interfata CalculateService cu o metoda calculate() care intoarce un tip generic, subclasa a clasei Number
 Interfata CalculateService va trebui sa aiba trei implementari: una care va calcula suma, una care va calcula media, una care va numara duplicatele
