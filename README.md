@@ -33,4 +33,4 @@ o    entrySet()
 _Se va crea un package exceptions care sa contina toate exceptiile declarate. Se vor arunca exceptii in cazuri exceptionale (ex. parametrul key este null etc.)
 Se vor crea teste unitare pentru toate metodele create care sa acopere cat mai multe cazuri (favorabile si nefavorabile) - JUnit_
 
-![picture]https://www.google.com/search?q=hashmap+diagram&safe=active&rlz=1C1GCEA_enRO843RO843&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOiqWZ5tThAhVLkMMKHYAmBSUQ_AUIDigB&biw=1920&bih=937#imgrc=1hHjb_Bf0BIUMM
+![picture](https://www.google.com/search?q=hashmap+diagram&safe=active&rlz=1C1GCEA_enRO843RO843&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOiqWZ5tThAhVLkMMKHYAmBSUQ_AUIDigB&biw=1920&bih=937#imgrc=1hHjb_Bf0BIUMM)
