@@ -11,7 +11,7 @@ o    Pentru implementarea calculului sumei : suma sa nu depaseasca valoarea Inte
 o    Pentru implementarea calculului mediei : lista primita sa nu contina numere negative
 o    Pentru implementarea numararii duplicatelor : lista sa contina si elemente unice
 
-Se vor crea teste unitare pentru fiecare din cele 3 implementari
+***Se vor crea teste unitare pentru fiecare din cele 3 implementari
 
 
 
@@ -29,5 +29,5 @@ o    containsKey(key)
 o    containsValue(value)
 o    entrySet()
 
-Se va crea un package exceptions care sa contina toate exceptiile declarate. Se vor arunca exceptii in cazuri exceptionale (ex. parametrul key este null etc.)
+***Se va crea un package exceptions care sa contina toate exceptiile declarate. Se vor arunca exceptii in cazuri exceptionale (ex. parametrul key este null etc.)
 Se vor crea teste unitare pentru toate metodele create care sa acopere cat mai multe cazuri (favorabile si nefavorabile) - JUnit
