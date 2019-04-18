@@ -1,0 +1,7 @@
+com\cegeka\academy\testing\MathCalculatorUtilTest.class
+com\cegeka\academy\exceptions\DuplicateException.class
+com\cegeka\academy\exceptions\MedieException.class
+com\cegeka\academy\util\Strategy.class
+com\cegeka\academy\exceptions\SumaException.class
+com\cegeka\academy\service\CalculateService.class
+com\cegeka\academy\util\MathCalculatorUtil.class
