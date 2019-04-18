@@ -2,28 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88428d-bfdc-4c48-a3d0-234bac18e2f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/DuplicateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MedieException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/service/CalculateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/service/CalculateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/MyEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/AverageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MyHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Duplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MedieException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/classes/MathArithmeticAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/classes/MathDuplicateCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/classes/MathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/exceptions/MedieException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/exceptions/SumaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/testing/MathCalculatorUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cegeka/academy/testing/MathCalculatorUtilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/util/MathCalculatorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cegeka/academy/util/MathCalculatorUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,52 +32,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/AverageException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#661#678#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-              </folding>
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="460">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,19 +74,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/DuplicateException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/Strategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MyHashMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Average.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Duplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +136,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hashVal</find>
+      <find>hashValue</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -134,11 +153,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumaException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MedieException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/DuplicateException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/CustomHashmap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/Hashmap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/Hashmap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/HashmapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MyHashMapTest.java" />
       </list>
     </option>
   </component>
@@ -181,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,49 +251,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="academy" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math-calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introduction-to-java-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="academy" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math-calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introduction-to-java-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="academy" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math-calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introduction-to-java-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="academy" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math-calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introduction-to-java-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="academy" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,8 +283,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MathCalculatorUtilTest.GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect">
-    <configuration name="MathCalculatorUtilTest.GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MathCalculatorUtilTest and 1 more">
+    <configuration name="MathCalculatorUtilTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.cegeka.academy.testing.MathCalculatorUtilTest" />
+        <pattern testClass="com.cegeka.academy.testing.MyHashMapTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="math-calculator" />
       <extension name="coverage">
         <pattern>
@@ -301,14 +304,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cegeka.academy.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MathCalculatorUtilTest" />
-      <option name="METHOD_NAME" value="GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MyHashMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMapTest.GIVEN_hashmap_WHEN_containsValue_THEN_returnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cegeka.academy.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cegeka.academy.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MyHashMapTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashmap_WHEN_containsValue_THEN_returnCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathCalculatorUtilTest.GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHashMapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="math-calculator" />
       <extension name="coverage">
         <pattern>
@@ -317,8 +335,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cegeka.academy.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MathCalculatorUtilTest" />
-      <option name="METHOD_NAME" value="GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MyHashMapTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMapTest.GIVEN_hashmap_WHEN_remove_THEN_returnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cegeka.academy.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cegeka.academy.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.testing.MyHashMapTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashmap_WHEN_remove_THEN_returnCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,8 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathCalculatorUtilTest.GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect" />
-        <item itemvalue="JUnit.MathCalculatorUtilTest.GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" />
+        <item itemvalue="JUnit.MathCalculatorUtilTest and 1 more" />
+        <item itemvalue="JUnit.MyHashMapTest" />
+        <item itemvalue="JUnit.MyHashMapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" />
+        <item itemvalue="JUnit.MyHashMapTest.GIVEN_hashmap_WHEN_remove_THEN_returnCorrect" />
+        <item itemvalue="JUnit.MyHashMapTest.GIVEN_hashmap_WHEN_containsValue_THEN_returnCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -342,45 +379,65 @@
       <option name="presentableId" value="Default" />
       <updated>1555428781881</updated>
       <workItem from="1555428801709" duration="5094000" />
+      <workItem from="1555595167527" duration="5461000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathCalculatorUtilTest_GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect - 2019.04.16 at 20h 56m 32s.xml">
-      <configuration name="MathCalculatorUtilTest.GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" configurationId="JUnit" />
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 10m 58s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathCalculatorUtilTest_GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect - 2019.04.16 at 21h 06m 48s.xml">
-      <configuration name="MathCalculatorUtilTest.GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" configurationId="JUnit" />
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 11m 02s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathCalculatorUtilTest_GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect - 2019.04.16 at 21h 07m 13s.xml">
-      <configuration name="MathCalculatorUtilTest.GIVEN_strategySum_WHEN_calculateByStrategy_THEN_returnCorrect" configurationId="JUnit" />
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 11m 32s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathCalculatorUtilTest_GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect - 2019.04.16 at 21h 08m 13s.xml">
-      <configuration name="MathCalculatorUtilTest.GIVEN_strategyCount_WHEN_calculateByStrategy_THEN_returnCorrect" configurationId="JUnit" />
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 11m 56s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 12m 21s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashmapTest_GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect - 2019.04.18 at 18h 13m 15s.xml">
+      <configuration name="HashmapTest.GIVEN_hashmap_WHEN_entrySet_THEN_returnCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashmapTest - 2019.04.18 at 18h 13m 18s.xml">
+      <configuration name="HashmapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHashMapTest - 2019.04.18 at 18h 15m 06s.xml">
+      <configuration name="MyHashMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHashMapTest - 2019.04.18 at 18h 16m 29s.xml">
+      <configuration name="MyHashMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathCalculatorUtilTest_and_1_more - 2019.04.18 at 18h 16m 35s.xml">
+      <configuration name="MathCalculatorUtilTest and 1 more" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5094000" />
+    <option name="totallyTimeSpent" value="10555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25158983" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49731544" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.2852349" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.28696343" side_tool="true" visible="true" weight="0.3281372" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.7147651" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.71303654" visible="true" weight="0.3281372" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49920508" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -424,6 +481,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="entries[0].next" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -433,50 +511,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumaException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MedieException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-end-line="7" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/DuplicateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Average.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/service/CalculateService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Coding/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -487,54 +540,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathArithmeticAverage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="306">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/MyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/hashmap/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#600#606#0" expanded="true" />
+            <element signature="e#3702#3703#0" expanded="true" />
+            <element signature="e#3795#3796#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Average.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/math/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/AverageException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/DuplicateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SumException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MathCalculatorUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="460">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/MathCalculatorUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/testing/MyHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/classes/MathDuplicateCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="573">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#661#678#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
           </folding>
         </state>
       </provider>
