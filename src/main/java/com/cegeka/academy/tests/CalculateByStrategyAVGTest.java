@@ -20,28 +20,28 @@ public class CalculateByStrategyAVGTest{
     }
 
     @Test(expected = NullStrategyException.class)
-    public void GIVEN_NullStrategy_WHEN_CalculateByStrategy_THEN_NullStrategyException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException {
+    public void GIVEN_NullStrategy_WHEN_CalculateByStrategy_THEN_NullStrategyException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException, MissingUniqueNumbersException {
         MathCalculatorUtil.calculateByStrategy(null, numberList);
     }
 
     @Test(expected = NullListException.class)
-    public void GIVEN_NullList_WHEN_CalculateByStrategy_THEN_NullListException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException {
+    public void GIVEN_NullList_WHEN_CalculateByStrategy_THEN_NullListException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException, MissingUniqueNumbersException {
         MathCalculatorUtil.calculateByStrategy(Strategy.AVG,null);
     }
 
     @Test(expected = EmptyListException.class)
-    public void GIVEN_EmptyList_WHEN_CalculateByStrategy_THEN_EmptyListException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException {
+    public void GIVEN_EmptyList_WHEN_CalculateByStrategy_THEN_EmptyListException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException, MissingUniqueNumbersException {
         MathCalculatorUtil.calculateByStrategy(Strategy.AVG, new ArrayList<>());
     }
 
     @Test(expected = SumOverMaxIntException.class)
-    public void GIVEN_SumOverMaxInt_WHEN_CalculateByStrategy_THEN_SumOverMaxIntException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException {
+    public void GIVEN_SumOverMaxInt_WHEN_CalculateByStrategy_THEN_SumOverMaxIntException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException, MissingUniqueNumbersException {
         numberList.add(Integer.MAX_VALUE);
         MathCalculatorUtil.calculateByStrategy(Strategy.AVG, numberList);
     }
 
     @Test(expected = NegativeNumberException.class)
-    public void GIVEN_NegativeNumberInList_WHEN_CalculateByStrategy_THEN_NegativeNumberException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException {
+    public void GIVEN_NegativeNumberInList_WHEN_CalculateByStrategy_THEN_NegativeNumberException() throws NegativeNumberException, SumOverMaxIntException, NullStrategyException, EmptyListException, NullListException, MissingUniqueNumbersException {
         numberList.add(-1);
         MathCalculatorUtil.calculateByStrategy(Strategy.AVG,numberList);
     }
