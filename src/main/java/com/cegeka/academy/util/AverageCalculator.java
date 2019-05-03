@@ -16,7 +16,7 @@ public class AverageCalculator implements CalculateService {
         }
         for (int i = 0; i < numberList.size(); i++) {
             if((double)numberList.get(i)<0){
-               throw new NegativeNumberException();
+                 throw new NegativeNumberException();
             }
         }
 
