@@ -36,13 +36,9 @@ public class NoOfDuplicatesTest {
         List<Double> listaNumere=new ArrayList<>();
         MathCalculatorUtil.calculateByStrategy(Strategy.COUNT_DUPLICATES,listaNumere);
     }
-    @Test(expected = NullListException.class)
-    public void GIVEN_listNull_WHEN_calculateSum_THEN_returnException() throws NullListException {
-        MathCalculatorUtil.calculateByStrategy(Strategy.SUM,null);
-    }
 
     @Test(expected = UniqueElementListException.class)
-    public void GIVEN_listEmpty_WHEN_calculateSum_THEN_returnException() throws UniqueElementListException {
+    public void GIVEN_listWithNoUniqueValues_WHEN_calculateNoOfDuplicates_THEN_returnException() throws UniqueElementListException {
         List<Double> listaNumere=new ArrayList<>();
         listaNumere.add(20D);
         listaNumere.add(20D);
