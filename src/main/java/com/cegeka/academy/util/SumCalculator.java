@@ -13,7 +13,7 @@ public class SumCalculator implements CalculateService {
             throw new NullListException();
         Number sum=0;
         for(int i=0;i<numberList.size();i++){
-            if(Integer.MAX_VALUE<sum.doubleValue()+(double)numberList.get(i))
+            if(Double.MAX_VALUE-sum.doubleValue()<(double)numberList.get(i))
                 throw new MaxValueException();
            sum=sum.doubleValue()+(double)numberList.get(i);
         }
