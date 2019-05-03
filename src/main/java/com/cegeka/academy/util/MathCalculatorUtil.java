@@ -7,7 +7,8 @@ import java.util.List;
 
 public class MathCalculatorUtil {
 
-    private static List<CalculateService> calculateServices = new ArrayList<>(); // TODO create a list with all CalculateService implementations
+    private static List<CalculateService> calculateServices = new ArrayList<>();
+    // TODO create a list with all CalculateService implementations
     private static CalculateService suma=new SumCalculator();
     private static CalculateService avg=new AverageCalculator();
     private static CalculateService nrDuplicate=new NoOfDuplicates();
