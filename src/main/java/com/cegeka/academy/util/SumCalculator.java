@@ -13,17 +13,17 @@ public class SumCalculator implements CalculateService {
         if (numberList == null || numberList.size() == 0) {
             throw new EmptyInputException();
         }
-        Number suma = 0;
+        Number sum = 0;
 
         for (int i = 0; i < numberList.size(); i++) {
-            if(Integer.MAX_VALUE < suma.doubleValue() + Integer.MAX_VALUE ){
+            if(Double.MAX_VALUE - sum.doubleValue() < (double)numberList.get(i)){
                 throw new SumMaxValueException();
             }
-            suma = suma.doubleValue() + (double) numberList.get(i);
+            sum = sum.doubleValue() + (double) numberList.get(i);
         }
 
 
-        return suma;
+        return sum;
     }
 
     @Override

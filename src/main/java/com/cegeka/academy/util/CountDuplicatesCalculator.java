@@ -6,6 +6,7 @@ import com.cegeka.academy.exceptions.UniqueElementException;
 import com.cegeka.academy.service.CalculateService;
 
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -14,14 +15,27 @@ public class CountDuplicatesCalculator implements CalculateService {
     @Override
     public Number calculate(List numberList) throws EmptyInputException, SumMaxValueException {
 
-        int result = 0;
-        for (int i = 0; i < numberList.size(); i++) {
-            if(Collections.frequency(numberList,numberList.get(i))>1){
-                result ++;
-            }
-
+        boolean findUniqueElement = false;
+        if (numberList == null || numberList.size() == 0) {
+            throw new EmptyInputException();
         }
-        if(result == 0){
+
+        List noDuplicates = new ArrayList();
+        for (int i = 0; i < numberList.size() ; i++) {
+            if(!noDuplicates.contains(numberList.get(i))){
+                noDuplicates.add(numberList.get(i));
+            }
+        }
+        int result = 0;
+        for (int i = 0; i < noDuplicates.size(); i++) {
+            if(Collections.frequency(numberList,noDuplicates.get(i))>1){
+                result ++;
+            } else {
+                findUniqueElement = true;
+            }
+        }
+
+        if(!findUniqueElement){
             throw new UniqueElementException();
         }
 
