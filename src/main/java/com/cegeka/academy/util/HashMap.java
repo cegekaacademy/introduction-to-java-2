@@ -2,6 +2,8 @@ package com.cegeka.academy.util;
 
 import com.cegeka.academy.exceptions.KeyNotFoundException;
 import com.cegeka.academy.exceptions.MaxEntriesException;
+import com.cegeka.academy.exceptions.NullKeyException;
+import com.cegeka.academy.exceptions.NullValueException;
 
 public class HashMap<T,H> {
     int sizeFactor;
@@ -24,7 +26,13 @@ public class HashMap<T,H> {
 
     }
 
-    public void addElement(T key, H value) throws MaxEntriesException {
+    public void addElement(T key, H value) throws MaxEntriesException, NullValueException, NullKeyException {
+
+        if(key == null)
+            throw new NullKeyException();
+
+        if(value == null)
+            throw new NullValueException();
 
         if(this.entries == Integer.MAX_VALUE)
             throw new MaxEntriesException();
@@ -62,7 +70,11 @@ public class HashMap<T,H> {
     }
 
 
-    public H getElement(T key) throws KeyNotFoundException {
+    public H getElement(T key) throws KeyNotFoundException, NullKeyException {
+
+        if(key == null)
+            throw new NullKeyException();
+
         int index;
         index = key.hashCode() % (1 << sizeFactor);
         int count = 0;
@@ -73,14 +85,67 @@ public class HashMap<T,H> {
             count++;
         }
         HashNode<T, H> node = bucket.getFirstNode();
-
-        while (!node.getKey().equals(key) && node.getNextSibling() != null)
+        if(node != null)
         {
-            node = node.getNextSibling();
+            while (!node.getKey().equals(key) && node.getNextSibling() != null)
+            {
+                node = node.getNextSibling();
+            }
+            if(node.getKey().equals(key))
+            {
+                return node.getData();
+            }
+            else
+            {
+                throw new KeyNotFoundException();
+            }
         }
-        if(node.getKey().equals(key))
+        else throw new KeyNotFoundException();
+    }
+
+
+
+    public void removeElement(T key) throws KeyNotFoundException, NullKeyException {
+
+        if(key == null)
+            throw new NullKeyException();
+
+        int index;
+        index = key.hashCode() % (1 << sizeFactor);
+        int count = 0;
+        Bucket<T, H> bucket = bucketList;
+        while(count < index && bucket.getNextBucket() != null)
         {
-            return node.getData();
+            bucket = bucket.getNextBucket();
+            count++;
+        }
+        HashNode<T, H> node = bucket.getFirstNode();
+        if(node != null)
+        {
+            HashNode<T,H> lastNode = null;
+            while (!node.getKey().equals(key) && node.getNextSibling() != null)
+            {
+                lastNode = node;
+                node = node.getNextSibling();
+            }
+            if(node == bucket.getFirstNode())
+            {
+                if(node.getNextSibling()!=null)
+                    bucket.setFirstNode(node.getNextSibling());
+                else
+                    bucket.setFirstNode(null);
+                entries--;
+            }
+            else
+                if(node.getKey().equals(key))
+                {
+                    lastNode.setNextSibling(node.getNextSibling());
+                    this.entries--;
+                }
+                else
+                {
+                    throw new KeyNotFoundException();
+                }
         }
         else
         {
@@ -88,7 +153,7 @@ public class HashMap<T,H> {
         }
     }
 
-    private void ReinitializeHashMap(Bucket bucketList, int sizeFactor, int entries) throws  MaxEntriesException {
+    private void ReinitializeHashMap(Bucket bucketList, int sizeFactor, int entries) throws MaxEntriesException, NullKeyException, NullValueException {
         this.entries = 0;
         this.sizeFactor = sizeFactor + 1;
         this.bucketList = new Bucket<>();

@@ -2,6 +2,8 @@ package com.cegeka.academy.tests;
 
 import com.cegeka.academy.exceptions.KeyNotFoundException;
 import com.cegeka.academy.exceptions.MaxEntriesException;
+import com.cegeka.academy.exceptions.NullKeyException;
+import com.cegeka.academy.exceptions.NullValueException;
 import com.cegeka.academy.util.HashMap;
 import org.junit.Test;
 
@@ -10,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 public class HashMapGetElementTest {
 
     @Test
-    public void GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement() throws MaxEntriesException, KeyNotFoundException {
+    public void GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement() throws MaxEntriesException, KeyNotFoundException, NullKeyException, NullValueException {
         HashMap<String,Integer> hashMap = new HashMap<>();
         int expected = 10;
         String key = "Casa";
@@ -19,7 +21,7 @@ public class HashMapGetElementTest {
     }
 
     @Test
-    public void GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements() throws MaxEntriesException, KeyNotFoundException {
+    public void GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements() throws MaxEntriesException, KeyNotFoundException, NullKeyException, NullValueException {
         HashMap<String,Integer> hashMap = new HashMap<>();
         for(int i = 0; i < 1025; i++)
         {
@@ -33,5 +35,14 @@ public class HashMapGetElementTest {
             int actual = hashMap.getElement(key);
             assertEquals("Verificam daca primim toate elementele corect", i, actual );
         }
+    }
+
+    @Test(expected = NullKeyException.class)
+    public void GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException() throws MaxEntriesException, KeyNotFoundException, NullKeyException, NullValueException {
+        HashMap<String,Integer> hashMap = new HashMap<>();
+        int expected = 10;
+        String key = null;
+        hashMap.addElement(key, expected);
+        hashMap.getElement(key);
     }
 }

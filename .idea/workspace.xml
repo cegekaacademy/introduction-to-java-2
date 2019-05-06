@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111456eb-894c-4359-b22c-a7fe574e6b04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/KeyNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MaxEntriesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapConstructorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/KeyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullValueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapRemoveElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/tests/HashMapAddElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cegeka/academy/tests/HashMapAddElementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/tests/HashMapGetElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cegeka/academy/tests/HashMapGetElementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cegeka/academy/util/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cegeka/academy/util/HashMap.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,23 +32,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="256">
+              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3478#3479#0" expanded="true" />
-                <element signature="e#3539#3540#0" expanded="true" />
-                <element signature="e#3615#3616#0" expanded="true" />
+                <element signature="e#5477#5478#0" expanded="true" />
+                <element signature="e#5538#5539#0" expanded="true" />
+                <element signature="e#5614#5615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapRemoveElementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MaxEntriesException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullValueException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,20 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateDuplicatesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="970">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="-149">
+              <caret line="17" column="77" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="496">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,22 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/KeyObject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullKeyException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -127,16 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateByStrategySumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="300">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -203,9 +181,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SizeOverMaxIntException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/KeyNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MaxEntriesException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullKeyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullValueException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapRemoveElementTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java" />
       </list>
     </option>
   </component>
@@ -232,8 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,38 +306,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements">
-    <configuration name="CalculateByStrategyAVGTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math-calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.CalculateByStrategyAVGTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculateDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math-calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.CalculateDuplicatesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapAddElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero">
+    <configuration name="HashMapAddElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_nullKeyException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="math-calculator" />
       <extension name="coverage">
         <pattern>
@@ -366,28 +317,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
       <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapAddElementTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math-calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapGetElementTest" />
-      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" />
+      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_nullKey_THEN_nullKeyException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapAddElementTest.GIVEN_hashMap_WHEN_nullValue_THEN_nullValueException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapAddElementTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_nullValue_THEN_nullValueException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="math-calculator" />
       <extension name="coverage">
         <pattern>
@@ -397,7 +349,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
       <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapGetElementTest" />
-      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" />
+      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapRemoveElementTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="math-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cegeka.academy.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cegeka.academy.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cegeka.academy.tests.HashMapRemoveElementTest" />
+      <option name="METHOD_NAME" value="GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" />
-        <item itemvalue="JUnit.HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" />
-        <item itemvalue="JUnit.CalculateDuplicatesTest" />
-        <item itemvalue="JUnit.CalculateByStrategyAVGTest" />
-        <item itemvalue="JUnit.HashMapAddElementTest" />
+        <item itemvalue="JUnit.HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" />
+        <item itemvalue="JUnit.HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" />
+        <item itemvalue="JUnit.HashMapGetElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException" />
+        <item itemvalue="JUnit.HashMapAddElementTest.GIVEN_hashMap_WHEN_nullValue_THEN_nullValueException" />
+        <item itemvalue="JUnit.HashMapAddElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_nullKeyException" />
       </list>
     </recent_temporary>
   </component>
@@ -442,41 +426,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement - 2019.05.07 at 00h 41m 16s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" configurationId="JUnit" />
+    <history-entry file="HashMapAddElementTest_GIVEN_hashMap_WHEN_nullKey_THEN_nullKeyException - 2019.05.07 at 01h 24m 53s.xml">
+      <configuration name="HashMapAddElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_nullKeyException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement - 2019.05.07 at 00h 42m 23s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" configurationId="JUnit" />
+    <history-entry file="HashMapAddElementTest_GIVEN_hashMap_WHEN_nullValue_THEN_nullValueException - 2019.05.07 at 01h 25m 52s.xml">
+      <configuration name="HashMapAddElementTest.GIVEN_hashMap_WHEN_nullValue_THEN_nullValueException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement - 2019.05.07 at 00h 43m 49s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" configurationId="JUnit" />
+    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException - 2019.05.07 at 01h 27m 11s.xml">
+      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_nullKey_THEN_NullKeyException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement - 2019.05.07 at 00h 43m 52s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_addedElement_THEN_getTheSameElement" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish - 2019.05.07 at 01h 38m 40s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 49m 15s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish - 2019.05.07 at 01h 41m 58s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 51m 39s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish - 2019.05.07 at 01h 42m 01s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 52m 02s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish - 2019.05.07 at 01h 42m 24s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_itemRemoved_EntriesDiminish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 52m 30s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero - 2019.05.07 at 01h 45m 15s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 52m 39s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero - 2019.05.07 at 01h 49m 28s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapGetElementTest_GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements - 2019.05.07 at 00h 52m 52s.xml">
-      <configuration name="HashMapGetElementTest.GIVEN_hashMap_WHEN_added1000Elements_THEN_getTheSameElements" configurationId="JUnit" />
+    <history-entry file="HashMapRemoveElementTest_GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero - 2019.05.07 at 01h 49m 30s.xml">
+      <configuration name="HashMapRemoveElementTest.GIVEN_hashMap_WHEN_added1000ElementsAndThenRemoved1000E_THEN_EntriesZero" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27321237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2796158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +478,6 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3340448" side_tool="true" weight="0.24672489" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893278" weight="0.32969433" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49839914" weight="0.32969433" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.18890075" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -503,6 +486,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.18890075" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27321237" />
@@ -553,6 +537,12 @@
           <line>119</line>
           <properties />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -721,53 +711,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/Bucket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SizeOverMaxIntException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/KeyNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/SizeOverMaxIntException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MaxEntriesException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/KeyObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="330">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
-            <element signature="e#232#233#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
             <element signature="e#840#841#0" expanded="true" />
             <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/KeyNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/Bucket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateByStrategySumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,40 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateByStrategySumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullKeyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/CalculateDuplicatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/MaxEntriesException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -828,23 +793,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapAddElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-149">
+          <caret line="17" column="77" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3478#3479#0" expanded="true" />
-            <element signature="e#3539#3540#0" expanded="true" />
-            <element signature="e#3615#3616#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapGetElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="496">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5477#5478#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/exceptions/NullValueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cegeka/academy/tests/HashMapRemoveElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
