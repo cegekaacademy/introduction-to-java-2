@@ -15,4 +15,7 @@ public class MathCalculatorUtil {
                 .map(calculateService -> calculateService.calculate(list))
                 .get();
     }
+
+
+
 }
