@@ -15,10 +15,11 @@ public class Suma implements CalculateService {
         }
         int suma = 0;
         for(int i =0;i<numberList.size();i++){
-            if(suma + (int)numberList.get(i)>Integer.MAX_VALUE){
+            suma += (int)numberList.get(i);
+            if(suma>Integer.MAX_VALUE){
                 throw new MaxValueException();
             }
-            suma += (int)numberList.get(i);
+
         }
         return suma;
     }

@@ -10,7 +10,7 @@ public class MathCalculatorUtil {
     private static CalculateService suma = new Suma();
     private static CalculateService medie = new Medie();
     private static CalculateService duplicate = new NrDuplicate();
-    private static List<CalculateService> calculateServices = new ArrayList(); // TODO create a list with all CalculateService implementations
+    private static List<CalculateService> calculateServices = new ArrayList();
 
 
 

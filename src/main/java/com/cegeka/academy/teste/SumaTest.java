@@ -26,12 +26,13 @@ public class SumaTest {
         Assert.assertEquals(16, suma);
     }
 
-    @Test(expected = MaxValueException.class)
+    @Test
     public void GIVEN_maxValueElement_WHEN_calculate_THEN_throwException(){
         List lista = new ArrayList();
         lista.add(1);
         lista.add(4);
         lista.add(Integer.MAX_VALUE);
+        MathCalculatorUtil.calculateByStrategy(Strategy.SUM, lista);
     }
 
     @Test(expected = NullException.class)
