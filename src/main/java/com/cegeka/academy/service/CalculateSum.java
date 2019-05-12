@@ -14,7 +14,7 @@ public class CalculateSum implements CalculateService<Integer> {
         Integer sum = 0;
         for (Object number : numberList) {
             sum += (Integer) number;
-            if (sum > Integer.MAX_VALUE)
+            if (sum >= Integer.MAX_VALUE)
                 throw new UpperBoundaryException();
         }
         return sum;
